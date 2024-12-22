@@ -239,17 +239,20 @@ footer{
     padding:20px;
  border-radius: 5px; 
 
- 
+}
+
+.footer_content{
+    align-content: center;
 }
 
 .footer_column{
     width: 50%;
    display: block;
 padding:20px 50px;
-align-items: center;
+align-content: center;
 background-color: white;
 border-radius: 5px;
-
+text-align: center;
 }
 
 
