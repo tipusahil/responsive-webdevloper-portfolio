@@ -409,4 +409,22 @@ grid-template-columns: 1fr 1fr;
             .footer_column{
                 padding-bottom: 10px;
             }
+
+            header .banner{
+
+                padding: 20px;
+                /* background-position:bottom right, left center;
+            background-size: contain; */
+             }
+
+             .man_img{
+                width: 120%;
+                position: relative;
+              right: 30px;
+              bottom: -35px;
+             }
+            
+             /* 
+             */
+
         }
