@@ -117,6 +117,7 @@ overflow: hidden;
     align-content: center;
     margin: 80px;
  border-radius: 5px;
+ padding:20px;
  }
  
  .about_section1{
@@ -231,7 +232,7 @@ overflow: hidden;
 footer{
     display: flex;
     background-color:rgb(255, 222, 239) ;
-    margin-top: 80px;
+    margin-top: 50px;
     justify-content:center;
     padding:20px;
  border-radius: 5px; 
@@ -306,19 +307,32 @@ form [type="text"] ,[type="email"],[name="text"] {
 .about_info_gulo{
    margin-bottom: 5px;
 }
+.summery_container{
+flex-direction: column;
+
+}
+
+
 
 footer{
-    flex-direction: column;
+flex-direction: column;
 align-items: center;
 padding: 10px 10px;
-margin-top:20px;
+margin:10px 0px;
    }
 
    .footer_column{
-       padding:10px 30px;
-       margin:0px;
+       padding:10px;
+       width: 90%;
+       margin-bottom: 10px;
 }
 
+form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
 nav{
     margin: 10px; 
@@ -357,6 +371,18 @@ background-size: contain;
 
  }
  
+ form [type="text"] ,[type="email"],[name="text"] {
+    display: block;
+  margin: 20px;
+    width: 80%; 
+
+}
+
+body button{
+    padding:10px auto;
+    margin-bottom: 10px;
+  
+}
 
 }
 
@@ -374,6 +400,7 @@ grid-template-columns: 1fr 1fr;
  
     main >article{
         margin: 0;
+        padding-bottom: 20px;
      }
 
 
@@ -417,9 +444,6 @@ grid-template-columns: 1fr 1fr;
                 margin-right: 20px;
             }
 
-            .footer_column{
-                padding-bottom: 10px;
-            }
 
             header .banner{
 
@@ -444,4 +468,28 @@ overflow: hidden;
 
  }
 
+ body button{
+    padding:10px auto;
+    margin-bottom: 10px;
+  
+}
+
+
+.footer_column{
+    padding:10px;
+    width: 90%;
+}
+
+form{
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+form [type="text"] ,[type="email"],[name="text"] {
+    display: block;
+  margin: 20px;
+    width: 60%; 
+}
         }
