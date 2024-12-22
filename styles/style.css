@@ -51,12 +51,14 @@ nav ul li a {
     color: white;
     font-size: 20px;
     border-radius: 10px;
-    border: 0; /* defualt vabe border diye dei, tai border 0 dile kuno border dekabena.*/
-    padding: 15px 30px;
+
+    border: 2px solid white; /* defualt vabe border diye dei, tai border 0 dile kuno border dekabena.*/
+    padding: 10px 20px;
+
 }
 
 .btn-contact{
-padding: 15px 35px;
+padding: 10px 20px;
 border:2px solid #FD6E0A;
 font-size: 20px;
 border-radius: 10px;
