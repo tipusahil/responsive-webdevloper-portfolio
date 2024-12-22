@@ -100,13 +100,13 @@ background-size: contain;
     margin: 0 0;
     font-weight: 700;
  }
-
+ 
  .banner .banner-p{
     color:rgb(101, 101, 101);
     font-weight: 100;
  }
 
-
+ 
  /* main section styles */
 
  main >article{
@@ -115,18 +115,18 @@ background-size: contain;
     margin: 80px;
  border-radius: 5px;
  }
-
+ 
  .about_section1{
-    background-color: white;
+     background-color: white;
     margin: 100px;
     border-radius: 5px;
- }
+}
 
  .about_section1 .about_me_h3{
     font-size: 35px;
     text-align: center;
 
- }
+}
 
  .about_p1 , .section_what_p , .skill_p{
     color:rgb(101, 101, 101);
@@ -144,7 +144,7 @@ background-size: contain;
     padding: 10px;
     
  }
-
+ 
  .about_info_gulo{
     background-color: transparent;
     text-align: center;
@@ -160,7 +160,7 @@ background-size: contain;
 
  .info_p{
     font-weight: 600;
- }
+}
  
 /* what section related style */
 
@@ -184,7 +184,7 @@ background-size: contain;
 
 .skill{
    margin: 20px;
-    border:2px solid #FD6E0A;
+   border:2px solid #FD6E0A;
     background-color: white;
     border-radius: 5px;
     padding:10px;
@@ -294,7 +294,7 @@ form [type="text"] ,[type="email"],[name="text"] {
     
  
  .about_info_container{
-   flex-direction: column;
+     flex-direction: column;
     justify-content: space-evenly;
  
  }
@@ -316,8 +316,21 @@ margin:10px;
 
 
 nav{
-    margin: 10px;
+    margin: 10px; 
 }
+
+nav>.nav_mary{
+    padding-left: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* .nav button{
+    margin-right:0px;
+} */
 
 header .banner{
     flex-direction: column-reverse;
@@ -326,4 +339,6 @@ header .banner{
 background-size: contain;
  }
 }
+
+/* btn-hire_me */
 
