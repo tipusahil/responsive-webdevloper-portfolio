@@ -1,0 +1,268 @@
+/* font family for all */
+
+
+
+body {
+    /* body er jaigai (*)star k selector hisebe use kore ei (font-family) property er style ta dewa jabe. */
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+/* nav related styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* nav er (h3,ul) item gulo 2ta 2pashe sundor vabe 4pashe jaiga reke boshar jonno justify-content propery use kora hoyece.*/
+    align-items:center; /* nav er vitore thaka h3,& ul tag k eki line e soman vabe majkane boshanor jonno align-items property use kore center e ana hoyece.  */
+    margin:0 200px;
+    
+}
+
+nav>.nav_mary {
+    font-size: 45px;
+    font-weight: 800px;
+    color: black;
+}
+
+.orange-color {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    /* ul er vitore thaka li tag gulo k eki line e soman vabe majkane boshanor jonno align-items property use kore center e ana hoyece.  */
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-hire_me , .btn-download-cv ,.submit-btn {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0; /* defualt vabe border diye dei, tai border 0 dile kuno border dekabena.*/
+    padding: 15px 30px;
+}
+
+.btn-contact{
+padding: 15px 35px;
+border:2px solid #FD6E0A;
+font-size: 20px;
+border-radius: 10px;
+color:#FD6E0A;
+
+}
+
+
+ header .banner{
+    padding: 30px 30px 0px 150px;
+    background-color: rgb(255, 222, 239);
+    align-items: center;    /* vertical aling-item property te center na korle picture ar texts content eki line,eki width borabor boshtona  */
+    display: flex;    /* display flex korai man & texts content gulo flex hoye pashapashi bosce */
+    justify-content: space-between;
+background-image: url("../images/banner_bg.png"),url("../images/developer.png");
+/* 1.evabe url er bracket er vitore image er link dewar smy quetion er vitore dile tik moto kaj korbe.
+2.ekta property te 2ta url value use kora jai,tar jonno majkane koma dite hoi.
+ */
+background-repeat: no-repeat;
+background-position:bottom right, left center;
+background-size: contain;
+/* ekane 2ta url/image er jonno 1ta (background-position) property te 2ta value dewa hoyece,karon url 2ta tar kajkane(,)koma diye, protom (bottom right)value ta 1st url er jonno & second (top left)value ta 2nd url er jonno */
+
+ }
+
+ .banner .banner-texts{
+    max-width: 585px;
+ }
+
+ .man_img{
+    width: 500px;
+ }
+
+ .banner .banner-h3_hi{
+    font-size: 45px;
+    margin: 0 0;
+    font-weight: 600;
+ }
+ .banner .banner-h1_mary{
+    font-size: 85px;
+    margin: 0 0;
+    font-weight: 700;
+ }
+
+ .banner .banner-p{
+    color:rgb(101, 101, 101);
+    font-weight: 100;
+ }
+
+
+ /* main section styles */
+
+ main >article{
+    background-color:rgb(255, 222, 239) ;
+    align-content: center;
+    margin: 80px;
+ border-radius: 5px;
+ }
+
+ .about_section1{
+    background-color: white;
+    margin: 100px;
+
+    border-radius: 5px;
+ }
+
+ .about_section1 .about_me_h3{
+    font-size: 35px;
+    text-align: center;
+
+ }
+
+ .about_p1 , .section_what_p , .skill_p{
+    color:rgb(101, 101, 101);
+    font-weight: 100;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+ }
+
+ .about_info_container{
+    display: flex;
+    justify-content: space-evenly;
+    border:2px solid #FD6E0A;
+    border-radius: 5px; 
+ }
+
+ .about_info_gulo{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 5px;
+  
+ }
+
+ .info_title{
+      line-height: normal;
+      margin:0;
+      font-weight: 100;
+ }
+
+ .info_p{
+    font-weight: 600;
+ }
+ 
+/* what section related style */
+
+.what_h3{
+    font-size: 35px;
+    text-align: center;
+}
+.section2_what_p{
+    padding: 30px 110px;
+   text-align: center;
+ }
+
+/* skills related styles */
+
+.skills_container{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+.skill{
+   margin: 20px;
+    border:2px solid #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6); */
+    box-shadow: 0px 6px 50px 0px #f988378e;
+}
+
+
+/* summery resume styles shuro */
+.summery_section3_h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.summery_container{
+    display: flex;
+    gap: 50px;
+    padding: 0px 20px;
+}
+
+.sum_degree_h3{
+    color:rgb(59, 59, 59);
+}
+
+.sum_versity_h4{
+    color:grey;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+
+}
+
+.download_cv2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* footer styles start */
+footer{
+    display: flex;
+    background-color:rgb(255, 222, 239) ;
+    margin-top: 80px;
+    justify-content:center;
+    padding:120px 200px;
+ border-radius: 5px; 
+
+ 
+}
+
+.footer_column{
+    width: 50%;
+   display: block;
+padding:0px 50px;
+align-items: center;
+background-color: white;
+border-radius: 5px;
+
+}
+
+
+form [type="text"] ,[type="email"],[name="text"] {
+    display: block;
+   margin:0px 30px 20px 0px;
+    border-radius: 10px;
+    width: 100%; 
+    padding:18px 10px;
+     color:gray;
+    border:2px solid #FD6E0A;
+    background-color: white;
+}
+
+.submit-btn {  /* eshob btn e same style ta copy kore ekane ana hoyece shudo. .btn-hire_me , .btn-download-cv , */
+
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0; 
+    padding: 15px 30px;
+    cursor: pointer;
+}
