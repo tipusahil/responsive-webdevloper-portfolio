@@ -276,6 +276,7 @@ form [type="text"] ,[type="email"],[name="text"] {
 
 /* responsive styles  */
 /* for mobile devices */
+
 @media screen and (max-width:576px) {
     
     .skills_container{
@@ -311,11 +312,11 @@ margin-top:20px;
    }
 
    .footer_column{
-       padding:0px 30px;
+       padding:10px 30px;
        margin:0px;
 }
 
-
+  
 nav{
     margin: 10px; 
     flex-direction: column-reverse;
@@ -330,9 +331,6 @@ nav ul li {
     margin-right: 20px;
 }
 
-/* .nav button{
-    margin-right:0px;
-} */
 
 header .banner{
     flex-direction: column-reverse;
@@ -352,3 +350,63 @@ background-size: contain;
 
 
 
+
+/* responsive for tab devices styles */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    .skills_container{
+        display: grid;
+grid-template-columns: 1fr 1fr;
+    }
+ 
+    main >article{
+        margin: 0;
+     }
+
+
+     .about_section1{
+         margin:20px;
+      }
+      
+      .about_info_container{
+         justify-content: space-around;
+      
+      }
+      .about_info_gulo{
+    padding-right:0px 20px;
+ 
+      }
+      
+      footer{
+          flex-direction: column;
+      align-items: center;
+      padding: 10px 10px;
+      margin-top:20px;
+      padding:10px 0px;
+         }
+         .footer_column{
+             padding:0px 30px;
+             margin:10px;
+
+            }
+
+            nav{
+                margin: 10px; 
+                border:2px solid red;
+                justify-content: space-between;
+            }
+            
+            nav>.nav_mary{
+                padding-left: 15px;
+            }
+
+            nav ul li {
+                list-style: none;
+                margin-right: 20px;
+            }
+
+            .footer_column{
+                padding-bottom: 10px;
+            }
+        }
